@@ -1,7 +1,7 @@
 import axios, { CanceledError } from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:1337'
+  baseURL: 'https://ea5-api.upc.edu'
 });
 
 // Interceptor para añadir el token a todas las peticiones
